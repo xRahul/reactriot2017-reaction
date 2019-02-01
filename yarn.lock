@@ -6,17 +6,6 @@
   version "6.0.78"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-6.0.78.tgz#5d4a3f579c1524e01ee21bf474e6fba09198f470"
 
-CSSselect@~0.4.0:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/CSSselect/-/CSSselect-0.4.1.tgz#f8ab7e1f8418ce63cda6eb7bd778a85d7ec492b2"
-  dependencies:
-    CSSwhat "0.4"
-    domutils "1.4"
-
-CSSwhat@0.4:
-  version "0.4.7"
-  resolved "https://registry.yarnpkg.com/CSSwhat/-/CSSwhat-0.4.7.tgz#867da0ff39f778613242c44cfea83f0aa4ebdf9b"
-
 abbrev@1, abbrev@1.0.x:
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.0.9.tgz#91b4792588a7738c25f35dd6f63752a2f8776135"
@@ -1141,7 +1130,7 @@ check-error@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/check-error/-/check-error-1.0.2.tgz#574d312edd88bb5dd8912e9286dd6c0aed4aac82"
 
-cheerio@^0.22.0:
+cheerio@^0.22.0, cheerio@~0.22.0:
   version "0.22.0"
   resolved "https://registry.yarnpkg.com/cheerio/-/cheerio-0.22.0.tgz#a9baa860a3f9b595a6b81b1a86873121ed3a269e"
   dependencies:
@@ -1172,16 +1161,6 @@ cheerio@^1.0.0-rc.1:
     htmlparser2 "^3.9.1"
     lodash "^4.15.0"
     parse5 "^3.0.1"
-
-cheerio@~0.17.0:
-  version "0.17.0"
-  resolved "https://registry.yarnpkg.com/cheerio/-/cheerio-0.17.0.tgz#fa5ae42cc60121133d296d0b46d983215f7268ea"
-  dependencies:
-    CSSselect "~0.4.0"
-    dom-serializer "~0.0.0"
-    entities "~1.1.1"
-    htmlparser2 "~3.7.2"
-    lodash "~2.4.1"
 
 chokidar@^1.4.1, chokidar@^1.4.3:
   version "1.7.0"
@@ -1871,13 +1850,6 @@ dom-serializer@0, dom-serializer@~0.1.0:
     domelementtype "~1.1.1"
     entities "~1.1.1"
 
-dom-serializer@~0.0.0:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/dom-serializer/-/dom-serializer-0.0.1.tgz#9589827f1e32d22c37c829adabd59b3247af8eaf"
-  dependencies:
-    domelementtype "~1.1.1"
-    entities "~1.1.1"
-
 domain-browser@^1.1.1:
   version "1.1.7"
   resolved "https://registry.yarnpkg.com/domain-browser/-/domain-browser-1.1.7.tgz#867aa4b093faa05f1de08c06f4d7b21fdf8698bc"
@@ -1893,12 +1865,6 @@ domelementtype@~1.1.1:
 domhandler@2.1:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/domhandler/-/domhandler-2.1.0.tgz#d2646f5e57f6c3bab11cf6cb05d3c0acf7412594"
-  dependencies:
-    domelementtype "1"
-
-domhandler@2.2:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/domhandler/-/domhandler-2.2.1.tgz#59df9dcd227e808b365ae73e1f6684ac3d946fc2"
   dependencies:
     domelementtype "1"
 
@@ -1918,13 +1884,7 @@ domutils@1.1:
   dependencies:
     domelementtype "1"
 
-domutils@1.4:
-  version "1.4.3"
-  resolved "https://registry.yarnpkg.com/domutils/-/domutils-1.4.3.tgz#0865513796c6b306031850e175516baf80b72a6f"
-  dependencies:
-    domelementtype "1"
-
-domutils@1.5, domutils@1.5.1, domutils@^1.5.1:
+domutils@1.5.1, domutils@^1.5.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/domutils/-/domutils-1.5.1.tgz#dcd8488a26f563d61079e48c9f7b7e32373682cf"
   dependencies:
@@ -2026,10 +1986,6 @@ enhanced-resolve@^3.0.0:
 ent@~2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/ent/-/ent-2.2.0.tgz#e964219325a21d05f44466a2f686ed6ce5f5dd1d"
-
-entities@1.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/entities/-/entities-1.0.0.tgz#b2987aa3821347fcde642b24fdfc9e4fb712bf26"
 
 entities@^1.1.1, entities@~1.1.1:
   version "1.1.1"
@@ -2989,16 +2945,6 @@ htmlparser2@~3.3.0:
     domutils "1.1"
     readable-stream "1.0"
 
-htmlparser2@~3.7.2:
-  version "3.7.3"
-  resolved "https://registry.yarnpkg.com/htmlparser2/-/htmlparser2-3.7.3.tgz#6a64c77637c08c6f30ec2a8157a53333be7cb05e"
-  dependencies:
-    domelementtype "1"
-    domhandler "2.2"
-    domutils "1.5"
-    entities "1.0"
-    readable-stream "1.1"
-
 http-errors@~1.6.1:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/http-errors/-/http-errors-1.6.1.tgz#5f8b8ed98aca545656bf572997387f904a722257"
@@ -3750,13 +3696,9 @@ lodash@^3.8.0:
   version "3.10.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
 
-lodash@^4.0.0, lodash@^4.0.1, lodash@^4.14.0, lodash@^4.15.0, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0, lodash@^4.5.0:
-  version "4.17.4"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
-
-lodash@~2.4.1:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-2.4.2.tgz#fadd834b9683073da179b3eae6d9c0d15053f73e"
+lodash@^4.0.0, lodash@^4.0.1, lodash@^4.14.0, lodash@^4.15.0, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0, lodash@^4.5.0, lodash@~4.17.10:
+  version "4.17.11"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
 
 lodash@~4.16.4:
   version "4.16.6"
@@ -5072,15 +5014,6 @@ readable-stream@1.0, readable-stream@~1.0.2:
     isarray "0.0.1"
     string_decoder "~0.10.x"
 
-readable-stream@1.1:
-  version "1.1.13"
-  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-1.1.13.tgz#f6eef764f514c89e2b9e23146a75ba106756d23e"
-  dependencies:
-    core-util-is "~1.0.0"
-    inherits "~2.0.1"
-    isarray "0.0.1"
-    string_decoder "~0.10.x"
-
 readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.5, readable-stream@^2.0.6, readable-stream@^2.1.4, readable-stream@^2.2.2, readable-stream@^2.2.6:
   version "2.2.9"
   resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.2.9.tgz#cf78ec6f4a6d1eb43d26488cac97f042e74b7fc8"
@@ -6007,12 +5940,12 @@ ultron@1.0.x:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/ultron/-/ultron-1.0.2.tgz#ace116ab557cd197386a4e88f4685378c8b2e4fa"
 
-unfluff@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/unfluff/-/unfluff-1.1.0.tgz#5f0c1aaf8ef103836c6468113eb716ff59c0b4bb"
+unfluff@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/unfluff/-/unfluff-3.2.0.tgz#1a4e3e6950b31e3dd6908a84a30e279a5cd0425e"
   dependencies:
-    cheerio "~0.17.0"
-    lodash "~2.4.1"
+    cheerio "~0.22.0"
+    lodash "~4.17.10"
     optimist "~0.6.1"
     xregexp "~2.0.0"
 
