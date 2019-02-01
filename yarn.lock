@@ -3479,9 +3479,9 @@ karma-phantomjs-launcher@^1.0.4:
     lodash "^4.0.1"
     phantomjs-prebuilt "^2.1.7"
 
-karma-webpack-with-fast-source-maps@^1.10.0:
-  version "1.10.1"
-  resolved "https://registry.yarnpkg.com/karma-webpack-with-fast-source-maps/-/karma-webpack-with-fast-source-maps-1.10.1.tgz#1676e7e028561016e29691e701b5372fe8cac1e0"
+karma-webpack-with-fast-source-maps@^1.10.2:
+  version "1.10.2"
+  resolved "https://registry.yarnpkg.com/karma-webpack-with-fast-source-maps/-/karma-webpack-with-fast-source-maps-1.10.2.tgz#43bc7940a4e6338cb73764237060f98873b83898"
   dependencies:
     async "~0.9.0"
     loader-utils "^0.2.5"
