@@ -5546,9 +5546,9 @@ slice-ansi@0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/slice-ansi/-/slice-ansi-0.0.4.tgz#edbf8903f66f7ce2f8eafd6ceed65e264c831b35"
 
-slug@^0.9.1:
-  version "0.9.1"
-  resolved "https://registry.yarnpkg.com/slug/-/slug-0.9.1.tgz#af08f608a7c11516b61778aa800dce84c518cfda"
+slug@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/slug/-/slug-1.0.0.tgz#503be07b150226a42abf7a9c52d345e6b163fea8"
   dependencies:
     unicode ">= 0.3.1"
 
