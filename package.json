@@ -94,7 +94,7 @@
     "phantomjs-prebuilt": "^2.1.14",
     "react-addons-test-utils": "^15.5.1",
     "react-test-renderer": "^15.5.4",
-    "rimraf": "^2.6.1",
+    "rimraf": "^3.0.2",
     "sass-loader": "^6.0.5",
     "sinon": "^2.2.0",
     "sinon-chai": "^2.10.0",
