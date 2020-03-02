@@ -29,7 +29,7 @@
     "node-summary": "^1.1.0",
     "object-assign": "^4.1.1",
     "path": "^0.12.7",
-    "promise": "^7.1.1",
+    "promise": "^8.1.0",
     "prop-types": "^15.5.10",
     "rc-select": "^6.8.7",
     "react": "^15.5.4",
