@@ -23,7 +23,7 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.1",
     "compression": "^1.6.2",
-    "dompurify": "^0.9.0",
+    "dompurify": "^2.2.2",
     "express": "^4.15.3",
     "material-design-icons": "^3.0.1",
     "node-summary": "^1.1.0",
