@@ -21,7 +21,7 @@
   "author": "Rahul Jain <rahul_jain@live.in> (http://rahulja.in)",
   "license": "MIT",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.1",
+    "cheerio": "^1.0.0-rc.5",
     "compression": "^1.6.2",
     "dompurify": "^0.9.0",
     "express": "^4.15.3",
