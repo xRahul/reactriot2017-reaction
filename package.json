@@ -46,7 +46,7 @@
     "slug": "^0.9.1",
     "unfluff": "^1.1.0",
     "url": "^0.11.0",
-    "whatwg-fetch": "^2.0.3"
+    "whatwg-fetch": "^3.6.2"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
